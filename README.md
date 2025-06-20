@@ -24,6 +24,7 @@ Follow these steps to get a copy of the project up and running on your local mac
 ### Prerequisites
 * A Linux-based operating system (e.g., Kali Linux, Ubuntu)
 * `bash`, `sudo` privileges, and standard Linux core utilities (`git`, `grep`, `diff`, etc.)
+* `mailutils` (or a similar package) is required for email alerts.
 
 ### 1. Clone the Repository
 Clone the project from GitHub to your local machine.
