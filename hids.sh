@@ -12,7 +12,13 @@ if [ $# -eq 0 ]; then show_help; exit 1; fi
 load_dependencies
 case "$1" in
     init)
+        
         echo "===== HIDS Initialization Started ====="
+         # Create necessary directories if they don't exist
+        mkdir -p db/ reports/
+        
+
+        # Call all initialize functions from the modules
         initialize_fim; initialize_users; initialize_logs
         initialize_processes_network; initialize_system_config
         echo "===== HIDS Initialization Complete ====="
