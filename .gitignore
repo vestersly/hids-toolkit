@@ -1,0 +1,5 @@
+# Ignore the database directory which contains instance-specific baselines
+db/
+
+# Ignore the reports directory which contains instance-specific scan results
+reports/
